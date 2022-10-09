@@ -14,7 +14,7 @@ Feature Selection과 Feature Extraction 각 방법론은 종속변수를 고려�
 
 ---
 ## 2. Dimensionality Reduction Tutorial
-1. LDA  [tutorial](https://github.com/rch1025/Business-Analytics/blob/main/Dimensionality%20Reduction/LDA%20tutorial.ipynb)
+1. LDA  [[tutorial](https://github.com/rch1025/Business-Analytics/blob/main/Dimensionality%20Reduction/LDA%20tutorial.ipynb)]
 - 클래스 내의 분산은 최소화하고, 클래스 간의 분산을 최대화하는 방법론이다.
 - PCA와 같이 고차원의 feature를 저차원 공간으로 투영시킨다.
 - 아래와 같은 4가지 제약 조건이 존재한다.
@@ -22,7 +22,7 @@ Feature Selection과 Feature Extraction 각 방법론은 종속변수를 고려�
     - 예측 변수 분포의 제약
     - 변수들 간의 상관관계 제약
     - 결과변수 클래스별 공분산 행렬의 제약
-2. t-SNE [tutorial](https://github.com/rch1025/Business-Analytics/blob/main/Dimensionality%20Reduction/t-SNE%20tutorial.ipynb)
+2. t-SNE [[tutorial](https://github.com/rch1025/Business-Analytics/blob/main/Dimensionality%20Reduction/t-SNE%20tutorial.ipynb)]
 - 고차원과 저차원의 데이터간 확률적인 관계를 같게 하고자 하는 방법론이다.
 - Neighbor identity를 deteministic하게 정의한 t-SNE 이전의 방법론들과 다르게 probabilistic한 방법론을 사용한다.
 - 시각화에 용이하며 local 구조를 유지함과 동시에 일부 중요한 global 구조를 드러낼 수 있다.
