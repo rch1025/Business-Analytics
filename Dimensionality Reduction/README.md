@@ -2,15 +2,14 @@
 
 ## 1. Dimensionality Reduction이란?
 차원 축소는 데이터 셋의 차원 감소를 통해 모델의 복잡성을 줄이고, 과적합(overfitting)을 막는 역할을 하며 방법론으로는 크게 `Feature Selection`과 `Feature Extraction`이 있다. </br></br>
-![](2022-10-09-22-39-40.png)
+![](![](2022-10-09-22-45-07.png).png)
 </br>
 - `Feature Selection`: 전체 변수 중 소수의 변수를 선택하는 기법을 의미한다. 변수 해석이 용이하다는 장점이 존재하나 변수 간의 상관관계를 고려하기 어렵다는 단점이 있다.
 - `Feature Extraction`: 기존 변수의 변환을 통해 새로운 변수를 추출한다. Feature Selection과는 다르게 변수 간의 상관관계를 고려할수 있고, 변수의 개수를 많이 줄일 수 있다는 장점이 있다.</br></br>
 
 Feature Selection과 Feature Extraction 각 방법론은 종속변수를 고려하여 변수를 추출 (또는 선택) 하는지에 따라 `supervised`와 `unsupervised`로 나눌 수 있다.
-</br>
-![](2022-10-09-22-45-07.png)
-</br>
+![](2022-10-09-23-33-46.png)
+</br></br>
 
 ---
 ## 2. Dimensionality Reduction Tutorial
