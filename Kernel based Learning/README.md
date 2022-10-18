@@ -37,7 +37,7 @@
 </br></br>
 ---
 ## 3. Kernel based Learning tutorial
-- Support Vector Machine (SVM)  [[tutorial](https://github.com/rch1025/Business-Analytics/blob/main/Dimensionality%20Reduction/LDA%20tutorial.ipynb)]
+- Support Vector Machine (SVM)  [[tutorial](https://github.com/rch1025/Business-Analytics/blob/main/Kernel%20based%20Learning/SVM.ipynb)]
 
 
 ---
