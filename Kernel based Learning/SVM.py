@@ -54,7 +54,7 @@ if __name__ == "__main__":
         def get_hyperplane_value(x, w, b, offset):
             return (-w[0] * x + b + offset) / w[1]
 
-        fig = plt.figure(figsize=(10,9))
+        fig = plt.figure(figsize = (7,7))
         ax = fig.add_subplot(1, 1, 1)
         plt.scatter(X[:, 0], X[:, 1], marker="o", c=y, s=200, cmap='Set2')
 
