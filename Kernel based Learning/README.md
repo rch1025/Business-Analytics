@@ -1,7 +1,9 @@
 # :books: Kernel based Learning - Support Vector Machine
-`커널 기반 학습(kernel based learning)`은 딥러닝이 대두되기 전인 2000년대 초반까지 머신러닝 모델 (SVM, SVR 등)의 기반이 되는 학습 방법이다. 커널 기반의 방법론들은 `구조적 위험 최소화(Structure Rist Minimization, SRM)`를 중요하게 생각한다. 우리는 모델을 만들 때 존재하는 모든 데이터를 알지 못하기에 `사용이 가능한 데이터(학습 데이터)에 최적화된 (경험적 위험만을 최소화하는) 모델을 생성한다.` 그러나 이렇게 사용한 학습 데이터가 전체 데이터를 완벽하게 대체할 수는 없기에 데이터에 대한 일반화로부터 발생하는 오류를 계산해야 한다. 이는 모델의 구조로부터 발생하는 위험을 최소화 해야 하는 것을 의미한다.
+`커널 기반 학습(kernel based learning)`은 딥러닝이 대두되기 전인 2000년대 초반까지 머신러닝 모델 (SVM, SVR 등)의 기반이 되는 학습 방법이다. 커널 기반의 방법론들은 `구조적 위험 최소화(Structure Rist Minimization, SRM)`를 중요하게 생각한다. 
 
- 모델의 복잡도(VC dimension)가 증가하면 (모델의 복잡도를 나타내는 지표인) capacity에 의한 오차, 즉 일반화로부터 발생되는 오차(variance)가 증가한다. 반면에 학습 데이터에는 잘 맞춰지기에 training error(bias)는 줄어든다. 따라서 `구조적 위험 최소화 접근법은 '모델의 복잡도'와 '학습 데이터의 오차(경험적 위험)'의 트레이드 오프를 고려하여 최선의 모델을 선택하는 것을 의미한다.`
+우리는 모델을 만들 때 존재하는 모든 데이터를 알지 못하기에 `사용이 가능한 데이터(학습 데이터)에 최적화된 (경험적 위험만을 최소화하는) 모델을 생성한다.` 그러나 이렇게 사용한 학습 데이터가 전체 데이터를 완벽하게 대체할 수는 없기에 데이터에 대한 일반화로부터 발생하는 오류를 계산해야 한다. 이는 모델의 구조로부터 발생하는 위험을 최소화 해야 하는 것을 의미한다.
+
+모델의 복잡도(VC dimension)가 증가하면 (모델의 복잡도를 나타내는 지표인) capacity에 의한 오차, 즉 일반화로부터 발생되는 오차(variance)가 증가한다. 반면에 학습 데이터에는 잘 맞춰지기에 training error(bias)는 줄어든다. 따라서 `구조적 위험 최소화 접근법은 '모델의 복잡도'와 '학습 데이터의 오차(경험적 위험)'의 트레이드 오프를 고려하여 최선의 모델을 선택하는 것을 의미한다.`
  </br></br>
 
 ## 1. Support Vector Machine (SVM)이란?
@@ -40,8 +42,8 @@
 
 ---
 ### :postbox: Reference
-1.  Boser, B. E., Guyon, I. M., & Vapnik, V. N. (1992, July). A training algorithm for optimal margin classifiers. In Proceedings of the fifth annual workshop on Computational learning theory (pp. 144-152).
-2. Vapnik, V. (1999). The nature of statistical learning theory. Springer science & business media.
-3. https://medium.com/codex/support-vector-machine-with-python-in-just-100-lines-of-code-35e74707f8e1
-4. https://www.youtube.com/watch?v=gzbafL28vA0&t=1680s (강필성 교수님의 Business Analytics IME654 강의)
-5. 
+-  Boser, B. E., Guyon, I. M., & Vapnik, V. N. (1992, July). A training algorithm for optimal margin classifiers. In Proceedings of the fifth annual workshop on Computational learning theory (pp. 144-152).
+- Vapnik, V. (1999). The nature of statistical learning theory. Springer science & business media.
+- Noble, W. S. (2006). What is a support vector machine?. Nature biotechnology, 24(12), 1565-1567.
+- https://medium.com/codex/support-vector-machine-with-python-in-just-100-lines-of-code-35e74707f8e1
+- https://www.youtube.com/watch?v=gzbafL28vA0&t=1680s (강필성 교수님의 Business Analytics IME654 강의)
