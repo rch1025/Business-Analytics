@@ -42,8 +42,3 @@
 
 ---
 ### :postbox: Reference
--  Boser, B. E., Guyon, I. M., & Vapnik, V. N. (1992, July). A training algorithm for optimal margin classifiers. In Proceedings of the fifth annual workshop on Computational learning theory (pp. 144-152).
-- Vapnik, V. (1999). The nature of statistical learning theory. Springer science & business media.
-- Noble, W. S. (2006). What is a support vector machine?. Nature biotechnology, 24(12), 1565-1567.
-- https://medium.com/codex/support-vector-machine-with-python-in-just-100-lines-of-code-35e74707f8e1
-- https://www.youtube.com/watch?v=gzbafL28vA0&t=1680s (강필성 교수님의 Business Analytics IME654 강의)
