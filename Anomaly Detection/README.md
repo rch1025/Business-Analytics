@@ -51,7 +51,7 @@ $$L(f(x)) = \frac{1}{2}\sum{(\hat{x_i}-x_i)^2}$$
 
 ---
 ## 3. LSTM-AE tutorial
-- LSTM-AE  [[tutorial](https://github.com/rch1025/Business-Analytics/tree/main/Anomaly%20Detection)]
+- LSTM-AE  [[tutorial](https://github.com/rch1025/Business-Analytics/blob/main/Anomaly%20Detection/LSTM%20AutoEncoder.ipynb)]
 
 
 ---
