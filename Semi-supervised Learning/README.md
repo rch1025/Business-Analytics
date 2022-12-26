@@ -17,7 +17,7 @@
 </br></br>
 ---
 ## 3. Semi-supervised Learning tutorial
-- Semi-supervised Learning  [[tutorial](https://github.com/rch1025/Business-Analytics/blob/main/Kernel%20based%20Learning/SVM.ipynb)]
+- Semi-supervised Learning  [[tutorial](https://github.com/rch1025/Business-Analytics/blob/main/Semi-supervised%20Learning/Semi%20supervised%20Learning%20tutorial.ipynb)]
 
 
 ---
